@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pseudoclase/Pseudoelementos</title>
+
+	<!--== CSS ==-->
+  	<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+	<div class="dvi">
+		<p class="pseudoclase">Pseudoclase</p>
+		<p class="p1">Estilos especiales dependiendo del contexto, posición o estado.</p>
+
+		<div class="dvi1">
+			<p class="p2">:Hover</p>
+			<p class="p3">:hover de CSS coincide cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no necesariamente lo activa. Generalmente se activa cuando el usuario se desplaza sobre un elemento con el cursor (puntero del mouse).
+			</br></br>
+			Ejemplo:
+			</br>
+
+			<a href="#">Intenta pasar el mouse sobre este enlace.</a>
+			</p>
+		</div>
+
+		<div class="dvi1">
+			<p class="p2">:Active</p>
+			<p class="p3">:active de CSS  representa un elemento (como un botón) que el usuario está activando.  Cuando se usa un mouse, la "activación" generalmente comienza cuando el usuario presiona el botón primario del mouse y termina cuando se suelta.
+			</br></br>
+			Ejemplo:
+			</br></br>
+			<a href="#">Este enlace cambiará a color lima mientras hace clic en él.</a>
+			</p>
+		</div>
+
+		<div class="dvi1">
+			<p class="p2">:Empty</p>
+			<p class="p3">:empty de CSS representa cualquier elemento que no tenga hijos. Los hijos pueden ser nodos de elemento o texto (incluido el espacio en blanco). Los comentarios o las instrucciones de procesamiento no afectan si un elemento se considera vacío.
+			</br></br>
+			Ejemplo:
+			</br>
+			<div class="box"></div>
+			</p>
+		</div>
+
+		<div class="dvi1">
+			<p class="p2">:Default</p>
+			<p class="p3">:default de CSS representa cualquier elemento de formulario que sea el predeterminado entre un grupo de elementos relacionados.
+			</br></br>
+			Ejemplo:
+			</br>
+			<input type="radio" name="season" id="summer" checked>
+			<label for="summer">Summer</label>
+			</p>
+		</div>
+
+		<div class="dvi1">
+			<p class="p2">:Focus</p>
+			<p class="p3">:focus CSS representa un elemento (como una entrada de formulario) que ha recibido el foco. Generalmente se activa cuando el usuario hace clic, toca un elemento o lo selecciona con la tecla "Tab" del teclado.
+			</br></br>
+			Ejemplo:
+			</br>
+			<input class="red-input" value="Voy a ser de color rojo cuando enfoque."><br>
+			<input class="blue-input" value="Voy a ser de color azul cuando enfoque.">
+			</p>
+		</div>
+	</div>
+
+
+
+<!--Star Pseudoelementos -->
+
+	<div class="dvv">
+		<p class="pseudoelementos">Pseudoelementos</p>
+		<p class="p1">Estilos especiales dependiendo del contexto, posición o estado.</p>
+
+		<div class="dvi1">
+			<p class="p2">::After</p>
+			<p class="p3">::after crea un pseudo-elemento que es el último hijo del elemento seleccionado. Es comunmente usado para añadir contenido cosmético a un elemento con la propiedad content.Es en linea (inline) de forma predeterminada.
+			</br></br>
+			Ejemplo:
+			</br>
+			<span class="ribbon">Look at the orange box after this text. </span>
+			</p>
+		</div>
+
+		<div class="dvi1">
+			<p class="p2">::Before</p>
+			<p class="p3">::before crea un pseudoelemento que es el primer hijo del elemento seleccionado. Es usado normalmente para añadir contenido estético a un elemento, usando la propiedad content. Este elemento se muestra en línea con el texto de forma predeterminada.
+			</br></br>
+			Ejemplo:
+			</br></br>
+			<span class="ribbon1">Notice where the orange box is.</span>
+			</p>
+		</div>
+
+		<div class="dvi1">
+			<p class="p2">::First-letter (:first-letter)</p>
+			<p class="p3">::first-letter aplica estilos a la primera letra de la primera línea un elemento de bloque, sólo cuando no es precedido de otro contenido (como imágenes o tablas).
+			Ejemplo:
+			</br>
+			<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+			</p>
+		</div>
+
+		<div class="dvi1">
+			<p class="p2">::First-line (:first-line)</p>
+			<p class="p3">::first-line aplica estilos a la primera línea de un elemento de bloque. Nótese que la longitud de la primera línea depende de muchos factores, incluyendo el ancho del elemento, el ancho del documento y el tamaño de fuente del texto.
+			</br></br>
+			Ejemplo:
+			</br>
+			<span>Los estilos sólo se aplicarán en la primera línea de este párrafo.
+			Posteriormente, todo el texto tendrá el estilo normal.
+			¿Ves?
+			</span>
+			</p>
+		</div>
+
+		<div class="dvi1">
+			<p class="p2">:Placeholder</p>
+			<p class="p3">::placeholder representa el texto provisional en un elemento (input) o un elemento (textarea).
+			</br></br>
+			Ejemplo:
+			</br>
+			<input placeholder="Type something here...">
+			</p>
+		</div>
+	</div>
+
+
+</body>
+</html>

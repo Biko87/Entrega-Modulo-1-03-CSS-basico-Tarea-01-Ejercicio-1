@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, Helvetica, Verdana;
+  padding: 20px;
+  background: #BBB7BB;
+}
+
+/*Star Estyle Pseudoclase*/
+.dvi {
+  background: #0E83FF;
+  border: 2px solid #C1C2C2;
+  width: 100%;
+  height: 100%;
+}
+
+.dvi:hover {
+  background-color: gold;
+}
+
+
+.pseudoclase {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.p1 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.dvi1 {
+  background: #B3B3B3;
+  width: 100%;
+  height: 100%;
+}
+
+/*Star :hover Estyle*/
+.p2 {
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+}
+
+.p3 {
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+}
+
+a {
+  background-color: powderblue;
+  transition: background-color .5s;
+}
+
+a:hover {
+  background-color: gold;
+}
+
+
+/*End :hover Estyle*/
+
+/*Star :active Estyle*/
+a:active {
+  color: lime;
+}
+/*End :active Estyle*/
+
+/*Star :empty Estyle*/
+.box {
+  background: pink;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  text-align: center;
+}
+
+.box:empty {
+  background: lime;
+}
+/*End :empty Estyle*/
+
+
+/*Star :default Estyle*/
+input:default {
+  box-shadow: 0 0 2px 1px coral;
+}
+
+input:default + label {
+  color: coral;
+}
+/*End :default Estyle*/
+
+/*Star :focus Estyle*/
+.red-input:focus {
+  background: yellow;
+  color: red;
+}
+
+.blue-input:focus {
+  background: yellow;
+  color: blue;
+}
+/*End :focus Estyle*/
+
+/*End Pseudoclase Estyle*/
+
+
+/*Star Estyle Pseudoelementos*/
+.dvv {
+  background: #21FE49;
+  border: 2px solid #C1C2C2;
+  width: 100%;
+  height: 100%;
+}
+
+.dvv:hover {
+  background-color: lightyellow;
+}
+
+.pseudoelementos {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.ribbon {
+  background-color: #5BC8F7;
+}
+
+.ribbon::after {
+  content: "This is a fancy orange box.";
+  background-color: #FFBA10;
+  border-color: black;
+  border-style: dotted;
+}
+
+.ribbon1 {
+  background-color: #5BC8F7;
+}
+
+.ribbon1::before {
+  content: "Look at this orange box.";
+  background-color: #FFBA10;
+  border-color: black;
+  border-style: dotted;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 130%;
+}
+
+p::first-line {
+  color: blue;
+  text-transform: uppercase;
+}
+
+input::placeholder {
+  color: green;
+}
+
+/*End Estyle Pseudoelementos*/
+
+/**/
